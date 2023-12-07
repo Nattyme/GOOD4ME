@@ -92,6 +92,10 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Work Sans', sans-serif;
 */
 /* colors*/
+body {
+  font-family: "Jost", sans-serif;
+}
+
 .container {
   max-width: 1678px;
   padding: 0 15px;
@@ -102,10 +106,20 @@ font-family: 'Work Sans', sans-serif;
   max-width: 1260px;
 }
 
-.header__signin {
+.header__top--wrapper {
   padding: 12px 0;
   color: #FFF;
   background-color: #f6623e;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__tip {
+  display: flex;
 }
 
 .header__nav {
@@ -121,4 +135,13 @@ font-family: 'Work Sans', sans-serif;
 .nav__list {
   display: flex;
   gap: 72px;
+}
+
+.nav__link {
+  font-size: 18px;
+  line-height: 24px;
+  color: #454545;
+}
+.nav__link--active {
+  color: #f6623e;
 }/*# sourceMappingURL=main.css.map */

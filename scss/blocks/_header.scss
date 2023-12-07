@@ -1,10 +1,35 @@
 .header {
 }
 
-.header__signin {
+.header__top--wrapper {
     padding: 12px 0;
     color: $white;
-    background-color: $primary;
+    background-color: $accent;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__tip {
+    display: flex;
+}
+
+.header__tip-pay {
+}
+
+.header__tip-delivery {
+}
+
+.header__profile {
+}
+
+.header__signin {
+}
+
+.header__language {
 }
 
 .header__nav {

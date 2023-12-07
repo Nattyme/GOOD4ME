@@ -12,7 +12,14 @@
     gap: 72px;
 }
 
-.nav__list-link {
+.nav__link {
+    font-size: 18px;
+    line-height: 24px;
+    color: $main;
+
+    &--active {
+        color: $accent;
+    }
 }
 
 .nav__action {
