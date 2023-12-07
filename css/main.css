@@ -97,7 +97,7 @@ body {
 }
 
 .container {
-  max-width: 1678px;
+  max-width: 1718px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -108,7 +108,6 @@ body {
 
 .header__top--wrapper {
   padding: 12px 0;
-  color: #FFF;
   background-color: #f6623e;
 }
 
@@ -116,10 +115,39 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #FFF;
 }
 
 .header__tip {
   display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.header__tip-pay {
+  padding: 0 11px;
+}
+
+.header__tip-delivery {
+  padding: 0 11px;
+  border-left: 1px solid #FFF;
+}
+
+.header__profile {
+  display: flex;
+  align-items: center;
+}
+
+.header__signin {
+  padding-right: 20px;
+  border-right: 1px solid #FFF;
+}
+
+.header__lang {
+  margin-left: 23px;
+  display: flex;
+  align-items: center;
 }
 
 .header__nav {
@@ -132,6 +160,11 @@ body {
   justify-content: space-between;
 }
 
+.nav__logo {
+  width: 198px;
+  height: 47px;
+}
+
 .nav__list {
   display: flex;
   gap: 72px;
@@ -139,9 +172,19 @@ body {
 
 .nav__link {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   color: #454545;
 }
 .nav__link--active {
   color: #f6623e;
+}
+
+.nav__action {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cart {
+  margin-right: 7px;
 }/*# sourceMappingURL=main.css.map */

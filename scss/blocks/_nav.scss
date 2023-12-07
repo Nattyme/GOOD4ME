@@ -5,6 +5,8 @@
 }
 
 .nav__logo {
+    width: 198px;
+    height: 47px;
 }
 
 .nav__list {
@@ -14,7 +16,7 @@
 
 .nav__link {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
     color: $main;
 
     &--active {
@@ -23,10 +25,17 @@
 }
 
 .nav__action {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
-.search {
+.nav__search {
+}
+
+.nav__input {
 }
 
 .cart {
+    margin-right: 7px;
 }

@@ -3,7 +3,6 @@
 
 .header__top--wrapper {
     padding: 12px 0;
-    color: $white;
     background-color: $accent;
 }
 
@@ -11,25 +10,42 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    color: $white;
 }
 
 .header__tip {
     display: flex;
+    align-items: center;
+
+    font-size: 16px;
+    line-height: 1.25;
 }
 
 .header__tip-pay {
+    padding: 0 11px;
 }
 
 .header__tip-delivery {
+    padding: 0 11px;
+    border-left: 1px solid $white;
 }
 
 .header__profile {
+    display: flex;
+    align-items: center;
 }
 
 .header__signin {
+    padding-right: 20px;
+    border-right: 1px solid $white;
 }
 
-.header__language {
+.header__lang {
+    margin-left: 23px;
+    
+    display: flex;
+    align-items: center;
 }
 
 .header__nav {
