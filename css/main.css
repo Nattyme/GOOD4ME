@@ -1,4 +1,5 @@
 /* Reset and base styles  */
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Montserrat:wght@700&family=Work+Sans:wght@500&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -85,6 +86,11 @@ legend {
   display: block;
 }
 
+/* fonts*/
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
 /* colors*/
 .container {
   max-width: 1678px;
@@ -100,4 +106,19 @@ legend {
   padding: 12px 0;
   color: #FFF;
   background-color: #f6623e;
+}
+
+.header__nav {
+  padding: 29px 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+  gap: 72px;
 }/*# sourceMappingURL=main.css.map */
